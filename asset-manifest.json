@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/rc_engineering/static/css/main.17bbfa49.css",
+    "main.js": "/rc_engineering/static/js/main.b568285f.js",
+    "static/media/about.png": "/rc_engineering/static/media/about.53dfcc9808017e27fb00.png",
+    "static/media/intro_a.png": "/rc_engineering/static/media/intro_a.85d8f24743a215ee57e5.png",
+    "static/media/industry.png": "/rc_engineering/static/media/industry.8cdf4e8cca53ffb4c94e.png",
+    "static/media/intro.png": "/rc_engineering/static/media/intro.f94433aade95b4e740cf.png",
+    "static/media/contact.png": "/rc_engineering/static/media/contact.c3e1da3cfc9719ec3e48.png",
+    "static/media/expertise.png": "/rc_engineering/static/media/expertise.893f5476f8e502ed146d.png",
+    "static/media/oil_and_gas.png": "/rc_engineering/static/media/oil_and_gas.4f85dc2975a287f7a6c2.png",
+    "static/media/services.png": "/rc_engineering/static/media/services.2e59d27d5063474c69b3.png",
+    "static/media/utilities.png": "/rc_engineering/static/media/utilities.af11f850d2805b9943b0.png",
+    "static/media/water_and_waste_water.png": "/rc_engineering/static/media/water_and_waste_water.6adaf8868f3e430750dd.png",
+    "static/media/mission.png": "/rc_engineering/static/media/mission.2c890a5253bc7e4d94d7.png",
+    "static/media/vision.png": "/rc_engineering/static/media/vision.2e3086d27b00f5cbec0d.png",
+    "static/media/transport.png": "/rc_engineering/static/media/transport.f494c0bd736f4eec7409.png",
+    "static/media/close_menu.png": "/rc_engineering/static/media/close_menu.07e4eb02470fa74735b7.png",
+    "static/media/intro_b.png": "/rc_engineering/static/media/intro_b.4a13cd4b7d28d8320bab.png",
+    "static/media/open_menu.png": "/rc_engineering/static/media/open_menu.e3ceb529a09cbf00e31a.png",
+    "static/media/main_logo.png": "/rc_engineering/static/media/main_logo.8cb3203b55996065b6d4.png",
+    "static/media/consultancy.png": "/rc_engineering/static/media/consultancy.022faca24fd4a2b983bc.png",
+    "static/media/trading_and_supply.png": "/rc_engineering/static/media/trading_and_supply.1f5b04c871d537926aae.png",
+    "static/media/engineering_and_implementation.png": "/rc_engineering/static/media/engineering_and_implementation.2dabe5897ea5008826b8.png",
+    "static/media/rc_logo.png": "/rc_engineering/static/media/rc_logo.6859d3196affee1858e2.png",
+    "index.html": "/rc_engineering/index.html",
+    "main.17bbfa49.css.map": "/rc_engineering/static/css/main.17bbfa49.css.map",
+    "main.b568285f.js.map": "/rc_engineering/static/js/main.b568285f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17bbfa49.css",
+    "static/js/main.b568285f.js"
+  ]
+}
