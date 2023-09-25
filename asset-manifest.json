@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rc_engineering/static/css/main.5c041f2f.css",
-    "main.js": "/rc_engineering/static/js/main.d2564e7a.js",
+    "main.css": "/rc_engineering/static/css/main.ad3a957e.css",
+    "main.js": "/rc_engineering/static/js/main.c1c35241.js",
     "static/media/about.png": "/rc_engineering/static/media/about.53dfcc9808017e27fb00.png",
     "static/media/intro_a.png": "/rc_engineering/static/media/intro_a.85d8f24743a215ee57e5.png",
     "static/media/industry.png": "/rc_engineering/static/media/industry.8cdf4e8cca53ffb4c94e.png",
@@ -24,11 +24,11 @@
     "static/media/engineering_and_implementation.png": "/rc_engineering/static/media/engineering_and_implementation.2dabe5897ea5008826b8.png",
     "static/media/rc_logo.png": "/rc_engineering/static/media/rc_logo.6859d3196affee1858e2.png",
     "index.html": "/rc_engineering/index.html",
-    "main.5c041f2f.css.map": "/rc_engineering/static/css/main.5c041f2f.css.map",
-    "main.d2564e7a.js.map": "/rc_engineering/static/js/main.d2564e7a.js.map"
+    "main.ad3a957e.css.map": "/rc_engineering/static/css/main.ad3a957e.css.map",
+    "main.c1c35241.js.map": "/rc_engineering/static/js/main.c1c35241.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c041f2f.css",
-    "static/js/main.d2564e7a.js"
+    "static/css/main.ad3a957e.css",
+    "static/js/main.c1c35241.js"
   ]
 }
