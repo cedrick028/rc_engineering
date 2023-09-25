@@ -29,7 +29,7 @@ function App() {
         <ScrollToTop />
         <Nav />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/rc_engineering" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/oursolutions" element={<OurSolutions />} />
           <Route path="/industries" element={<Industries />} />
