@@ -9,7 +9,7 @@ import philosophyVisionImage from '../../assets/illustrations/about_page/vision.
 
 const AboutUs = () => {
   return (
-    <div>
+    <div data-aos="fade-right">
 
       {/* Content 1 */}
       <div className="container px-6 m-auto my-14 lg:my-28">

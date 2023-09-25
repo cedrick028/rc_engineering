@@ -16,7 +16,7 @@ import waterAndWasteWater from "../../assets/icons/industries/water_and_waste_wa
 
 const Home = () => {
   return (
-    <div>
+    <div data-aos="fade-right">
       {/* Content 1 */}
       <div className="container px-6 m-auto my-14 lg:my-28">
         <h1 className="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl text-center lg:text-start lg:hidden">MASTERS <span>AT WORK</span></h1>

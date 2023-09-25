@@ -21,9 +21,18 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 
+// AOS Animation
+import AOS from 'aos'
+import "aos/dist/aos.css"
+
+AOS.init({
+  duration: 1000,
+  offset: 0
+})
+
 function App() {
   return (
-    <div className="App" onLoad={() => <Home />}>
+    <div className="App">
 
       <Router>
         <ScrollToTop />

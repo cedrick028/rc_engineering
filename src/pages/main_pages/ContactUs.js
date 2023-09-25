@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div>
+    <div data-aos="fade-right">
       <div className="container px-6 m-auto my-14 lg:my-28">
         <h2 className="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl text-center xl:text-start xl:hidden">CONTACT <span>US</span></h2>
         <div className="flex justify-between items-center flex-col-reverse xl:flex-row gap-10">

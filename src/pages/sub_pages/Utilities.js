@@ -5,7 +5,7 @@ import utilitiesIllustration from "../../assets/illustrations/industries_page/ut
 
 const Utilities = () => {
   return (
-    <div>
+    <div data-aos="fade-right">
       <div className="container px-6 m-auto my-14 lg:mt-28">
         <div className="flex items-center gap-10">
           <div className="industryIconsContainer rounded-lg flex items-center justify-center">

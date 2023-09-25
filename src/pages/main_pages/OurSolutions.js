@@ -46,7 +46,7 @@ const OurSolutions = () => {
     solutionsTextNine: <p>RC provides cost-effective, high-performance Telemetry and RTU solutions for remote monitoring and control including many standard interface protocols. Our solutions are based on our clients’ preferred SCADA software and RTU products along with an engineered communications package to provide a total telemetry system.<br/><br/>Telemetry and RTU solutions systems allow you to monitor and control ﬁeld operations across a widely dispersed infrastructure. RTU solutions are available in various conﬁgurations with robust communication to the central SCADA system.</p>,
   }
   return (
-    <div>
+    <div data-aos="fade-right">
       {/* Content 1 */}
       <div className="container px-6 m-auto my-14 lg:my-28">
         <div className="m-auto solutionsIntroIllustration">
