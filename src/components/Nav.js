@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <div className="container px-6 flex justify-between items-center m-auto sticky top-0 bg-white pb-2 flex-wrap" data-aos="fade-down">
         <div className="rcLogo z-20">
-            <Link to="/"><img alt="RC_Logo" src={rcLogo} /></Link>
+            <Link to="/home"><img alt="RC_Logo" src={rcLogo} /></Link>
         </div>
         <div className="mobileMenu z-10 block lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>
           <img alt="Mobile_menu" src={menuOpen ? closeMenu : openMenu} />
