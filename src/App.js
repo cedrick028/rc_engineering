@@ -23,23 +23,23 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" onLoad={() => <Home />}>
 
       <Router>
         <ScrollToTop />
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/Services" element={<Services />}></Route>
-          <Route path="/OurSolutions" element={<OurSolutions />}></Route>
-          <Route path="/Industries" element={<Industries />}></Route>
-          <Route path="/AboutUs" element={<AboutUs />}></Route>
-          <Route path="/ContactUs" element={<ContactUs />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/oursolutions" element={<OurSolutions />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/contactus" element={<ContactUs />} />
 
-          <Route path="/OilAndGas" element={<OilAndGas />}></Route>
-          <Route path="/Utilities" element={<Utilities />}></Route>
-          <Route path="/TransportInfrastructure" element={<TransportInfrastructure />}></Route>
-          <Route path="/WaterAndWasteWater" element={<WaterAndWasteWater />}></Route>
+          <Route path="/oilandgas" element={<OilAndGas />} />
+          <Route path="/utilities" element={<Utilities />} />
+          <Route path="/transportinfrastructure" element={<TransportInfrastructure />} />
+          <Route path="/waterandwastewater" element={<WaterAndWasteWater />} />
         </Routes>
       </Router>
 

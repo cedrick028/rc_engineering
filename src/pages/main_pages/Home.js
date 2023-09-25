@@ -24,7 +24,7 @@ const Home = () => {
           <div className="flex flex-col items-center lg:items-start">
             <h1 className="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl hidden lg:block">MASTERS <span>AT WORK</span></h1>
             <p className="text-xs md:text-sm max-w-2xl my-5 lg:my-10 text-center lg:text-start">Welcome to our company! We are a dynamic and innovative organization dedicated to delivering top-notch solutions and services to our valued clients. With a strong focus on excellence and customer satisfaction, we strive to exceed expectations and create lasting partnerships.</p>
-            <Link to="/ContactUs"><button className="rounded-xl text-xs md:text-sm">Inquire now</button></Link>
+            <Link to="/contactus"><button className="rounded-xl text-xs md:text-sm">Inquire now</button></Link>
           </div>
           <div className="illustrations mt-10 lg:mt-0 lg:ml-10 2xl:ml-0">
             <img alt="Building" src={homeIntroIllustration} />
@@ -43,7 +43,7 @@ const Home = () => {
             <h2 className="text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl hidden lg:block mb-5">About <span>RC Engineering</span></h2>
             <p className="text-xs md:text-sm max-w-3xl text-center lg:text-start my-5">RC is a specialist Consulting, Systems Integration and Trading company providing critical solutions and advisory services to Oil & Gas, Utilities, Transport Infrastructure and Manufacturing sectors.</p>
             <p className="text-xs md:text-sm max-w-3xl text-center lg:text-start">RC aims to become the worldwide leader in delivering Integrated Business Solutions to our Clients by way of providing: Consultancy, Technology and Services.</p>
-            <Link to="/AboutUs"><button className="rounded-xl text-xs md:text-sm mt-10">Read more</button></Link>
+            <Link to="/aboutus"><button className="rounded-xl text-xs md:text-sm mt-10">Read more</button></Link>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Home = () => {
             <p className="text-xs md:text-sm max-w-2xl text-center lg:text-start">• Consultancy</p>
 
             <p className="text-xs md:text-sm max-w-2xl my-5 lg:my-10 text-center lg:text-start">The RC team is made up of individuals who are experts in understanding the markets in which they work. They understand exactly what the client wants and know how best to deliver the required solution to the highest possible standards.</p>
-            <Link to="/Services"><button className="rounded-xl text-xs md:text-sm">Check our services</button></Link>
+            <Link to="/services"><button className="rounded-xl text-xs md:text-sm">Check our services</button></Link>
           </div>
           <div className="illustrations mt-10 lg:mt-0 lg:ml-10 2xl:ml-0">
             <img alt="Services" src={homeServicesIllustration} />
@@ -78,10 +78,10 @@ const Home = () => {
             <p className="text-xs md:text-sm max-w-3xl my-5 lg:my-10 text-center lg:text-left">Unlocking Innovation Through Engineering Excellence. Our engineering services blend cutting-edge technology with unmatched expertise to solve complex challenges. From concept to completion, we provide comprehensive solutions that drive efficiency, sustainability, and success for your projects. Let us engineer your vision into reality.</p>
             <div className="flex flex-wrap mt-10 gap-3 justify-center lg:justify-start">
 
-              <Link to="/OilAndGas"><HomeIndustryList industryIcon={oilAndGas} industryTitle="Oil & Gas" /></Link>
-              <Link to="/Utilities"><HomeIndustryList industryIcon={utilities} industryTitle="Utilities" /></Link>
-              <Link to="/TransportInfrastructure"><HomeIndustryList industryIcon={transport} industryTitle="Transport Infrastructure" /></Link>
-              <Link to="/WaterAndWasteWater"><HomeIndustryList industryIcon={waterAndWasteWater} industryTitle="Water and Waste Water" /></Link>
+              <Link to="/oilandgas"><HomeIndustryList industryIcon={oilAndGas} industryTitle="Oil & Gas" /></Link>
+              <Link to="/utilities"><HomeIndustryList industryIcon={utilities} industryTitle="Utilities" /></Link>
+              <Link to="/transportinfrastructure"><HomeIndustryList industryIcon={transport} industryTitle="Transport Infrastructure" /></Link>
+              <Link to="/waterandwastewater"><HomeIndustryList industryIcon={waterAndWasteWater} industryTitle="Water and Waste Water" /></Link>
 
             </div>
           </div>
@@ -105,7 +105,7 @@ const Home = () => {
               <HomeContactDetails contactTitle="Sales" contactNumber="+91-91673 20368" contactEmail="sales@rcengineering.in" />
               <HomeContactDetails contactTitle="Inquiry" contactNumber="+91-93267 79454" contactEmail="estimation@rcengineering.in" />
             </div>
-            <Link to="/ContactUs"><button className="rounded-xl text-xs md:text-sm mt-5">Message us</button></Link>
+            <Link to="/contactus"><button className="rounded-xl text-xs md:text-sm mt-5">Message us</button></Link>
           </div>
         </div>
       </div>

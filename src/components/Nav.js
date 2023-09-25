@@ -1,5 +1,5 @@
 import { React, useState} from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import rcLogo from '../assets/logo/rc_logo.png'
 import openMenu from '../assets/icons/open_menu.png'
@@ -17,11 +17,11 @@ const Nav = () => {
           <img alt="Mobile_menu" src={menuOpen ? closeMenu : openMenu} />
         </div>
         <div className={menuOpen ? "showMobileMenu text-base px-12 pt-36" : "hideMobileMenu lg:!block lg:w-auto lg:relative"}>
-            <NavLink to="/Services" className="navLinks ml-0 lg:ml-8">Services</NavLink>
-            <NavLink to="/OurSolutions" className="navLinks ml-0 lg:ml-8">Our Solutions</NavLink>
-            <NavLink to="/Industries" className="navLinks ml-0 lg:ml-8">Industries</NavLink>
-            <NavLink to="/AboutUs" className="navLinks ml-0 lg:ml-8">About Us</NavLink>
-            <NavLink to="/ContactUs" className="navLinks ml-0 lg:ml-8">Contact Us</NavLink>
+            <Link to="/services" className="navLinks ml-0 lg:ml-8">Services</Link>
+            <Link to="/oursolutions" className="navLinks ml-0 lg:ml-8">Our Solutions</Link>
+            <Link to="/industries" className="navLinks ml-0 lg:ml-8">Industries</Link>
+            <Link to="/aboutus" className="navLinks ml-0 lg:ml-8">About Us</Link>
+            <Link to="/contactus" className="navLinks ml-0 lg:ml-8">Contact Us</Link>
         </div>
     </div>
   )

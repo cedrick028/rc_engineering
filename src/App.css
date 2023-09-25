@@ -47,11 +47,11 @@ button, .button{
 }
 button:hover{
   background-color: #4E4C87;
-  border-radius: 23% 77% 47% 53% / 60% 28% 72% 40%;
+  border-radius: 24px;
 }
 .button:hover{
   background-color: #4E4C87;
-  border-radius: 23% 77% 47% 53% / 60% 28% 72% 40%;
+  border-radius: 24px;
 }
 
 img{
@@ -69,7 +69,7 @@ img{
 .active{
   background-color: var(--primary);
   color: #ffffff !important;
-  border-radius: 32% 68% 35% 65% / 55% 49% 51% 45%;
+  border-radius: 8px;
 }
 
 .navLinks{
@@ -191,9 +191,21 @@ img{
   }
 }
 
+@media (max-width: 414px){
+  .rcLogo{
+    width: 60px !important;
+  }
+}
+
 @media (max-width: 480px) {
   #map{
     width: 300px;
     height: 280px;
+  }
+}
+
+@media (max-width: 1023px){
+  .rcLogo{
+    width: 100px;
   }
 }
